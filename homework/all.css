@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 850px;
+	margin: 0 auto;
+	font-family: 微軟正黑體;
+	background-color: #ede6e3;
+
+}
+.menu{
+  width:200px;
+  float: left;
+  margin-top:20px;
+  margin-right: 10px;
+  padding-left: 20px;
+  font-weight:bold;
+}
+.menu img{
+	width: 20px;
+	height: 20px;
+}
+.menu h2{
+	font-size: 18px;
+	color: #914e31;
+	margin-bottom: 10px;
+}
+.menu li a{
+	display: block;
+	border-bottom: 1px #3D1102 solid;
+	text-decoration: none;
+	line-height: 30px;
+	padding-left: 5px;
+	color:#914e31;
+	
+}
+.menu li a:hover{
+	background: #914e31;
+	color: white;
+}
+
+.meal{
+	float: left;
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+}
+
+.order {
+	float: left;
+	width: 180px;
+	margin: 0px 10px 10px 10px;
+	box-shadow:3px 3px 9px #d3d3d3;
+	position: relative;
+}
+.order img{
+	width:180px;
+	height: 72px;
+
+}
+.order h3{
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+}
+.line{
+	border: 1px black solid;
+	width: 100px;
+	margin: 20px auto;
+} 
+.order span{
+	font-size: 20px;
+	padding-top:20px 20px 10px 20px;
+	margin: 0 auto;
+}
+.order p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.cart{
+	border: 2px orange solid;
+	border-radius: 5px;
+	text-align: center;
+	margin: 15px;
+	padding: 8px;
+}
+.order a{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+.cart:hover{
+	background: #FBB917;
+	color: white;
+}
+.cart img{
+	width: 20px;
+	height: 18px;
+	margin-right: 5px; 
+}
+.order h4{
+	text-align: center;
+	font-size: 12px;
+}
+
+.clear{
+  clear: both
+}
+.search{
+	float: left;
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+.searchbar{
+	float: left;
+	border: 2px #d3d3d3 solid; 
+	height: 25px;
+	background: white;
+	width: 380px;
+}
+.gopay{
+	float: right;
+	margin-right: 15px;
+}
+.gopay span{
+	float: left;
+	margin:5px 5px 5px 5px;
+
+}
+.payline{
+	float: left;
+	border-left: 1px #914e31 solid; 
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 20px;
+	margin-top: 5px;
+}
+.gopay img{
+	float: left;
+	height: 18px;
+	margin: 5px;
+	width:20px;
+}
+.like img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	left: 8px;
+	top: 8px;
+}
+.flag img{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
+
+
+
+
+
